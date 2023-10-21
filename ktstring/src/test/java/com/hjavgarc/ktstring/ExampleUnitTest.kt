@@ -1,4 +1,4 @@
-package com.hjavgarc.ktsring
+package com.hjavgarc.ktstring
 
 import org.junit.Test
 

@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.hjavgarc.ktsring"
+    namespace = "com.hjavgarc.ktstring"
     compileSdk = 33
 
     defaultConfig {
@@ -39,9 +39,10 @@ android {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "org.hjavgarc"
-            artifactId = "ktstring"
-            version = "0.0.1"
+            groupId = "com.hjavgarc.kt"
+            artifactId = "string"
+            version = "0.1"
+            artifact("$buildDir/outputs/aar/ktstring-release.aar")
         }
     }
 
