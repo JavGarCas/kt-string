@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Demo Extensions"
 include(":app")
- 
+include(":ktsring")
